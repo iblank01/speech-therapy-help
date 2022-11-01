@@ -10,7 +10,6 @@
     text-decoration: none;
     background-color: antiquewhite;
     padding: 0.5rem;
-    border: 1px solid red;
 }
 
 .link:hover {
@@ -24,7 +23,6 @@
     padding: 15px 0;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .menu {
@@ -33,7 +31,6 @@
     display: flex;
     flex: 2;
     justify-content: space-around;
-    border: 1px solid red;
 }
 
 .menu-icon {
@@ -41,7 +38,10 @@
     justify-content: left;
     align-items: center;
     margin-left: 1rem;
-    border: 1px solid red;
+}
+
+img {
+    border-radius: 5px;
 }
 
 .account-info {
@@ -54,7 +54,6 @@
 .menu-login {
     margin-left: 1rem;
     margin-right: 1rem;
-    border: 1px solid red;
 }
 
 .footer-container {
@@ -70,5 +69,4 @@
     left:0;
     right:0;
     height: 10vh;
-    border: 1px solid red;
 }
