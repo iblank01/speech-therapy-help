@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+a {
+    border-radius: 5px;
+}
+
 .link {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
 }
 
@@ -18,7 +22,7 @@
 }
 
 .menu-container {
-    color: antiquewhite;
+    color: white;
     background-color: #323232;
     padding: 15px 0;
     display: flex;
@@ -35,9 +39,17 @@
 
 .menu-icon {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    margin-left: 1rem;
+}
+
+.menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4em;
+    margin-left: .5rem;
 }
 
 img {
@@ -47,17 +59,17 @@ img {
 .account-info {
     display: flex;
     justify-content: flex-end;
-    flex: 1;
+    flex: 2;
     align-items: center;
 }
 
 .menu-login {
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
 }
 
 .footer-container {
-    color: antiquewhite;
+    color: white;
     background-color: #323232;
     padding: 15px 0;
     margin-top: 5px;
