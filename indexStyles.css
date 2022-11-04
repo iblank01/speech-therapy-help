@@ -8,6 +8,12 @@ a {
     border-radius: 5px;
 }
 
+h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
 .link {
     color: black;
     font-weight: bold;
@@ -66,6 +72,16 @@ img {
 .menu-login {
     margin-left: 1rem;
     margin-right: 3rem;
+}
+
+.header-container {
+    display: flex;
+    background-color: #323232;
+    padding: 17px 0;
+}
+
+.header {
+    margin-left: 70px;
 }
 
 .footer-container {
