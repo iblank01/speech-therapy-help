@@ -91,6 +91,7 @@ img {
 .header-container {
     background-color: #323231;
     display: flex;
+    box-shadow: white 15px 15px 15px;
     padding: 18px 0;
 }
 
@@ -102,14 +103,14 @@ img {
 
 .header-text {
     display: flex;
-    margin-left: 15rem;
+    margin-left: 8rem;
     align-items: flex-start;
 }
 
 .p-text-header {
     display: flex;
     margin-top: 5rem;
-    margin-left: -16rem;
+    margin-left: -21rem;
 }
 
 .header-image {
