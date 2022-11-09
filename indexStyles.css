@@ -10,7 +10,7 @@ a {
 
 h1 {
     font-family: "Helvetica", "sans-serif";
-    font-size: 3.5em;
+    font-size: 2.75em;
     color: white;
     font-weight: bold;
     align-items: center;
@@ -18,18 +18,17 @@ h1 {
 
 p {
     font-family: "Helvetica", "sans-serif";
-    font-size: 2rem;
+    font-size: 1em;
     color: white;
     font-weight: bold;
-    width: 30ch;
+    width: 60ch;
     justify-content: center;
 
 }
 .link {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
-    background-color: white;
     padding: 0.5rem;
 }
 
@@ -63,16 +62,19 @@ p {
 
 .menu-title {
     font-family: "Helvetica", "sans-serif";
+    font-size: 3.25em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 4em;
     margin-left: .5rem;
     margin-top: .25rem;
 }
 
 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
 }
 
@@ -97,24 +99,19 @@ img {
 
 .header {
     display:flex;
-    margin-top: 5rem;
-    margin-left: 84px;
+    margin-top: 2rem;
+    margin-left: 5rem;
 }
 
 .header-text {
     display: flex;
     margin-left: 8rem;
+    margin-top: 3rem;
     align-items: flex-start;
 }
 
-.p-text-header {
-    display: flex;
-    margin-top: 5rem;
-    margin-left: -21rem;
-}
-
 .header-image {
-    padding: 15px 0;
+    padding: 1rem 0;
     width: 30vw;
     height: 20vw;
     margin-left: 35rem;
