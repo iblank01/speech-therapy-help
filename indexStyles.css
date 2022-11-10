@@ -9,15 +9,17 @@ a {
 }
 
 h1 {
-    font-family: "Helvetica", "sans-serif";
-    font-size: 2.75em;
+    font-family: "Tahoma", "sans-serif";
+    font-size: 3.5em;
     color: white;
     font-weight: bold;
+    text-align: center;
+    justify-content: center;
     align-items: center;
 }
 
 p {
-    font-family: "Helvetica", "sans-serif";
+    font-family: "Tahoma", "sans-serif";
     font-size: 1em;
     color: white;
     font-weight: bold;
@@ -50,7 +52,6 @@ p {
     height: 8vh;
     margin: 1rem;
     display: flex;
-    flex: 2;
     justify-content: space-around;
 }
 
@@ -61,8 +62,8 @@ p {
 }
 
 .menu-title {
-    font-family: "Helvetica", "sans-serif";
-    font-size: 3.25em;
+    font-family: "tahoma", "sans-serif";
+    font-size: 1.25em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,10 +80,12 @@ img {
 }
 
 .account-info {
-    display: flex;
-    justify-content: flex-end;
+    font-family: "Tahoma", "sans-serif";
+    font-size: 1em;
     flex: 2;
     align-items: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu-login {
