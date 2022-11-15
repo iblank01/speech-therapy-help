@@ -1,0 +1,14 @@
+body {
+    background-color: red;
+}
+
+.user-container {
+    background-color: dimgray;
+    width: 80%;
+    height: 25vh;
+    display: flex;
+}
+
+.user-textspace {
+
+}
